@@ -39,26 +39,26 @@ for (i = 0; i < rounds; i++) {
 
     if (player == "Rock" && opponent == "Scissors") {
         wins = wins + 1;
-        alert("You won! " + wins);
+        alert("You won! " + wins + " win(s).");
     } else if (player == "Rock" && opponent == "Paper") {
         losses = losses + 1;
-        alert("You lost! " + losses);
+        alert("You lost! " + losses + " loss(es).");
     } else if (player == "Paper" && opponent == "Rock") {
         wins = wins + 1;
-        alert("You won! " + wins)
+        alert("You won! " + wins + " win(s).")
     } else if (player == "Paper" && opponent == "Scissors") {
         losses = losses + 1;
-        alert("You lost! " + losses);
+        alert("You lost! " + losses + " loss(es).");
     } else if (player == "Scissors" && opponent == "Paper") {
         wins = wins + 1;
-        alert("You won! " + wins);
+        alert("You won! " + wins + " win(s).");
     } else if (player == "Scissors" && opponent == "Rock") {
         losses = losses + 1;
-        alert("You lost! " + losses);
+        alert("You lost! " + losses + " loss(es).");
     } else if (player == opponent) {
         ties = ties + 1;
-        alert("It's a tie! " + ties);
+        alert("It's a tie! " + ties + " tie(s).");
     }
 }
 
-alert ("Your total score is " + wins + " wins, " + losses + " losses, and " + ties + " ties. Thanks for playing!");
+alert ("Your total score is " + wins + " wins, " + losses + " losses, and " + ties + " ties. Thanks for playing!a");
